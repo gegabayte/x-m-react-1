@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.header {
+ background: #fff;
+  z-index: 2001;
+  /* background: transparent; */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 2px 2px lightgray;
+}
+
+
+.header__container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 150px;
+  flex-wrap: wrap;
+}
+.header__container .header__nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+}
+.header__container .header__nav ul a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+.header__container .header__nav ul a:hover {
+  opacity: 0.5;
+}
+.header__container .header__btn--part {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header__container .header__btn--part h4 {
+  font-size: 20px   ;
+}
+.header__container .header__btn--part button {
+  color: black;
+  font-size: 16px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 1.5px solid black;
+  border-radius: 45px;
+  background: transparent;
+}
+.header__container .header__btn--part button:hover {
+  color: white;
+  background: black;
+}
+
+
+.hero__container {
+  background: #022A1E;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.hero__container .hero__block1 h1 {
+ font-size: 48px;
+ color: #fff;
+}
+.hero__container .hero__block1 p {
+font-size: 16px;
+color: #fff;
+width: 455px;
+margin-top: 12px;
+}
+.hero__container .hero__btn--img {
+  margin-top: 20px;
+}
+
+
+.section__container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section__container .section__block2 {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+
+.article__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background: #F2F7F7;
+  padding: 70px 50px;
+}
+.article__container h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.article__container .article__block__2 {
+  display: flex;
+  margin-top: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.article__container .article__block__2 .block1 , .block2 , .block3 {
+  padding: 300px 20px 30px 20px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 465px) {
+ img {
+  width: 300px;
+ }
+}
